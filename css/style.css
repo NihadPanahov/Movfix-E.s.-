@@ -1,0 +1,141 @@
+a {
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+}
+#header .top-header {
+  background-color: #12151E;
+  color: #fff;
+  padding: 10px;
+}
+#header .bottom-header {
+  background-color: #252631;
+  justify-content: flex-end;
+}
+#header .bottom-header .logo {
+  width: 20%;
+}
+#header .bottom-header .big-menu {
+  width: 80%;
+}
+#header .bottom-header .big-menu ul li a {
+  color: #fff;
+  padding: 15px;
+  display: block;
+  font-size: 15px;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header .bottom-header .big-menu ul li a input {
+  outline: none;
+  padding: 6 px 20px;
+  display: inline-block;
+  background-color: #12151E;
+  border-radius: 8mm;
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 576px) {
+  #header .bottom-header .logo {
+    width: 100%;
+  }
+  #header .nav-icon a {
+    color: #fff;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+#unlimit {
+  padding-top: 15rem;
+  background-image: url("../images/s_slider_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 90hv;
+}
+#unlimit .box-right img {
+  width: 602px;
+  height: 476px;
+}
+#unlimit .box-left {
+  color: #fff;
+}
+
+#movies {
+  background-image: url("../images/ucm_bg02.jpg");
+}
+#movies .new-release-movies .nrm-left {
+  color: #fff;
+}
+#movies .new-release-movies .nrm-left h6 {
+  font-weight: 700;
+}
+#movies .new-release-movies .nrm-left h2 {
+  font-weight: 700;
+}
+#movies .new-release-movies .nrm-left hr {
+  color: #E4D804;
+  height: 5px;
+  width: 17%;
+  opacity: 1;
+}
+#movies .new-release-movies .nrm-middle a {
+  color: #fff;
+  border: 1px solid #252631;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+#movies .new-release-movies .nrm-middle .movies {
+  margin: 0 10px;
+}
+#movies .new-release-movies .nrm-right a {
+  color: #fff;
+  border: 1px solid #252631;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+@media (max-width: 576px) {
+  #movies .new-release-movies {
+    padding: 0 10px;
+  }
+  #movies .new-release-movies a {
+    pad: 5px;
+  }
+}
+#movies .movies-boxes .m-box {
+  color: #fff;
+  text-align: center;
+}
+#movies .movies-boxes .m-box h6 {
+  text-align: left;
+  font-weight: 700;
+  color: #252631;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer {
+  background-image: url("../images/footer_bg.jpg");
+}
+#footer .footer-top .ft-right ul li a {
+  color: #fff;
+  padding: 15px;
+}
+#footer .footer-top .ft-right ul input {
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #12151E;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

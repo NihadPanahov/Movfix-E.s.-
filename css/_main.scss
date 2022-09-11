@@ -1,0 +1,110 @@
+@import "_variables";
+
+
+
+
+#unlimit {
+    .box-right {
+        img {
+            width: 602px;
+            height: 476px;
+        }
+    }
+
+    padding-top: 15rem;
+    background-image: url("../images/s_slider_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90hv;
+
+    .box-left {
+        color: $white;
+    }
+}
+
+
+
+
+// -------------
+
+#movies {
+    background-image: url("../images/ucm_bg02.jpg");
+
+    .new-release-movies {
+        .nrm-left {
+            color: $white;
+
+            h6 {
+                font-weight: 700;
+            }
+
+            h2 {
+                font-weight: 700;
+            }
+
+            hr {
+                color: $yellow;
+                height: 5px;
+                width: 17%;
+                opacity: 1;
+
+            }
+        }
+
+
+        .nrm-middle {
+
+            a {
+                color: $white;
+
+                border: 1px solid $grey;
+                border-radius: 20px;
+                padding: 10px 20px;
+            }
+
+            .movies {
+                margin: 0 10px;
+            }
+        }
+
+
+        .nrm-right {
+            a {
+                color: $white;
+                border: 1px solid $grey;
+                border-radius: 20px;
+                padding: 10px 20px;
+            }
+        }
+
+        @media(max-width:576px) {
+            padding: 0 10px;
+
+            a {
+                pad: 5px;
+            }
+        }
+
+    }
+
+
+    .movies-boxes{
+        .m-box{
+            color: $white;
+            text-align: center;
+            h6{
+                text-align: left;
+                font-weight: 700;
+                color: $grey;
+            }
+        }
+    }
+
+}
+
+// ------------
+
+
+
+

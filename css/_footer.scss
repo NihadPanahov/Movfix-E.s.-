@@ -1,0 +1,32 @@
+@import "_variables";
+
+
+
+
+#footer{
+    background-image: url("../images/footer_bg.jpg");
+
+    .footer-top{
+      
+        .ft-right{
+            
+            ul{
+                
+                li{
+                    a{
+                      color: $white;
+                      padding: 15px;  
+                    }
+                    
+                    
+                }
+                input{
+                    outline: none;
+                    color: $white;
+                    border-radius: 10px;
+                    background-color: $dark;
+                }
+            }
+        }
+    }
+}
